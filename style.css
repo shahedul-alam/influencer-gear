@@ -188,6 +188,54 @@ nav > ul > li > a > img {
     cursor: pointer;
 }
 
+/* featured section */
+.featured {
+    width: 70%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+}
+.featured > img {
+    flex-grow: 1;
+}
+.featured-content {
+    width: fit-content;
+    max-width: 610px;
+    grid-column: span 2;
+    align-content: center;
+}
+.featured-content > h2 {
+    color: rgb(10, 8, 38);
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1.6rem;
+}
+.featured-content > p {
+    width: 90%;
+    color: rgb(108, 108, 108);
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1.6rem;
+}
+.featured-content > button {
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: left;
+    border: none;
+    background: rgb(224, 44, 109);
+    padding: 10px 24px 10px 24px;
+}
+
+
+
 @media screen and (max-width: 576px) {
     * {
         box-sizing: border-box;
