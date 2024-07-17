@@ -97,6 +97,18 @@ nav > ul > li > a > img {
     top: -30px;
 }
 
+/* brands section */
+.brands-container {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    border-top: 1px solid rgba(192, 204, 218, 0.6);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
 
 
 @media screen and (max-width: 576px) {
