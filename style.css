@@ -262,8 +262,25 @@ nav > ul > li > a > img {
         flex-wrap: wrap;
         padding: 0;
         gap: 2rem;
+        margin-bottom: 5rem;
     }
     .brands-container > img {
         width: 20%;
+    }
+
+    /* collection section */
+    .collection {
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+    .collection > h2 {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+    .collection-cards-container {
+        grid-template-columns: 1fr;
+    }
+    .seemore > button {
+        margin-top: 3rem;
     }
 }
