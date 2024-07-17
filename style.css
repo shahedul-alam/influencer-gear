@@ -234,6 +234,34 @@ nav > ul > li > a > img {
     padding: 10px 24px 10px 24px;
 }
 
+/* footer section */
+footer {
+    background-color: #0b132b;
+    padding: 4rem;
+}
+.footer-content > h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-content > p {
+    color: rgb(217, 219, 225);
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+}
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.icon-wrapper > i {
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+}
+
 
 
 @media screen and (max-width: 576px) {
