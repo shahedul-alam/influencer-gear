@@ -145,6 +145,7 @@ nav > ul > li > a > img {
         justify-content: center;
         align-items: center;
         gap: 3rem;
+        margin-bottom: 5rem;
     }
     .header-image {
         width: 100%;
@@ -175,5 +176,17 @@ nav > ul > li > a > img {
         font-size: 1.4rem;
         margin-bottom: 2rem;
         text-align: center;
+    }
+
+    /* brands section */
+    .brands-container {
+        border: none;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 2rem;
+    }
+    .brands-container > img {
+        width: 20%;
     }
 }
